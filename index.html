@@ -11,74 +11,100 @@
   <body>
     <div class="container">
       <h1>Coding Track Suggestor</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <h2>Find a track that suits you, just fill out the form below!</h2>
-      <form ="formOne">
+      <form id="formOne">
         <div class="firstQ">
-          <label for="firstQ"></label>
-          <input type="text" id="firstQ" placeholder="Enter Your Name Here.">
+          <div class="row">
+            <div class="col-25">
+              <label for="firstQ">Who is taking this quiz?</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="firstQ" placeholder="Enter Your Name Here.">
+            </div>
+          </div>
         </div>
         <div class="secondQ">
-          <label for="secondQ"></label>
-          <select class="form-control" id="secondQ">
-            <option value=""></option>
-            <option value=""></option>
-          </select>
+          <div class="row">
+            <div class="col-25">
+              <label for="secondQ">Where do you reside?</label>
+            </div>
+            <div class="col-75">
+              <select class="form-control" id="secondQ">
+                <option value="">United States of America</option>
+                <option value="">Europe</option>
+              </select>
+            </div>
+          </div>
         </div>
         <div class="thirdQ">
-          <label for=""></label>
-          <input type="text" id="thirdQ" placeholder="Coding!">
+          <div class="row">
+            <div class="col-25">
+              <label for="thirdQ">On an ideal Sunday afternoon, what would you be doing:</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="thirdQ" placeholder="Coding!">
+            </div>
+          </div>
         </div>
         <div class="fourthQ">
-          <label for=""></label>
-          <select class="form-control" id="fourthQ">
-            <option value=""></option>
-            <option value=""></option>
-          </select>
+          <div class="row">
+            <div class="col-25">
+              <label for="fourthQ">Which of these companies do you find more appealing?</label>
+            </div>
+            <div class="col-75">
+              <select class="form-control" id="fourthQ">
+                <option value="">Microsoft</option>
+                <option value="">JPMorgan Chase</option>
+                <option value="">Instagram</option>
+              </select>
+            </div>
+          </div>
         </div>
         <div class="fifthQ">
-          <label for=""></label>
-          <input type="text" id="fifthQ" placeholder="Gram Gram">
+          <div class="row">
+            <div class="col-25">
+              <label for="fifthQ">Which "Gram" is best?</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fifthQ" placeholder="Gram Gram">
+            </div>
+          </div>
         </div>
+
         <!-- //maybe change this to a card group with images?//  -->
 
         <div class="sixthQ">
-          <label for=""></label>
-          <select class="form-control" id="sixthQ">
-            <option value=""></option>
-            <option value=""></option>
-          </select>
+          <div class="row">
+            <div class="col-25">
+              <label for="sixthQ">Which of these would you consider appropriate for "casual friday"?</label>
+            </div>
+            <div class="col-75">
+              <div class="radio">
+                <label for="relaxed">
+                  <input type="radio" name="lax" value="Relaxed"/>
+                  <img src="" alt="relaxed">
+                </label>
+              </div>
+              <div class="radio">
+                <label for="very-relaxed">
+                  <input type="radio" name="lax" value="Very Relaxed"/>
+                  <img src="" alt="very relaxed">
+                </label>
+              </div>
+              <div class="radio">
+                <label for="extremely-relaxed">
+                  <input type="radio" name="lax" value="Extremely Relaxed"/>
+                  <img src="" alt="extremely relaxed">
+                </label>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="row">
+        <button type="submit" class="pill btn-default" name="button">Submit</button>
       </form>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
   </body>
 </html>
-
-
-
-
-
-3 suggestions:
-
-c#, java, react
-
-
-
-
-
-5 questions--
-
-
-personal information
-
-name-value none
-where do you live? (usa, europe)-value low
-
-
-interests
-
-"On an ideal Sunday afternoon, what would you be doing: ?" -value none
-Which of these companies would you rather work for? (microsoft, jpmorgan-chase, instagram) -value high
-
-
-which "gram" is best? -value none
-Which of these would you consider appropriate for "casual friday" -value medium
