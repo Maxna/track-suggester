@@ -31,8 +31,8 @@
             </div>
             <div class="col-75">
               <select class="form-control" id="secondQ">
-                <option value="">United States of America</option>
-                <option value="">Europe</option>
+                <option>United States of America</option>
+                <option>Europe</option>
               </select>
             </div>
           </div>
@@ -54,26 +54,13 @@
             </div>
             <div class="col-75">
               <select class="form-control" id="fourthQ">
-                <option value="">Microsoft</option>
-                <option value="">JPMorgan Chase</option>
-                <option value="">Instagram</option>
+                <option id="ms">Microsoft</option>
+                <option id="jpm">JPMorgan Chase</option>
+                <option id="ig">Instagram</option>
               </select>
             </div>
           </div>
         </div>
-        <div class="fifthQ">
-          <div class="row">
-            <div class="col-25">
-              <label for="fifthQ">Which "Gram" is best?</label>
-            </div>
-            <div class="col-75">
-              <input type="text" id="fifthQ" placeholder="Gram Gram">
-            </div>
-          </div>
-        </div>
-
-        <!-- //maybe change this to a card group with images?//  -->
-
         <div class="sixthQ">
           <div class="row">
             <div class="col-25">
@@ -81,30 +68,35 @@
             </div>
             <div class="col-75">
               <div class="radio">
-                <label for="relaxed">
-                  <input type="radio" name="lax" value="Relaxed"/>
-                  <img src="" alt="relaxed">
+                <label for="relaxed">Relaxed
+                  <input id="lax1"type="radio" name="lax1" value="Relaxed" checked/>
+                  <img src="img/lessCasual.jpg" alt="relaxed">
                 </label>
               </div>
               <div class="radio">
-                <label for="very-relaxed">
-                  <input type="radio" name="lax" value="Very Relaxed"/>
-                  <img src="" alt="very relaxed">
+                <label for="very-relaxed">Very Relaxed
+                  <input id="lax2"type="radio" name="lax2" value="Very Relaxed"/>
+                  <img src="img/casual.jpeg" alt="very relaxed">
                 </label>
               </div>
               <div class="radio">
-                <label for="extremely-relaxed">
-                  <input type="radio" name="lax" value="Extremely Relaxed"/>
-                  <img src="" alt="extremely relaxed">
+                <label for="extremely-relaxed">Extremely Relaxed
+                  <input id="lax3"type="radio" name="lax3" value="Extremely Relaxed"/>
+                  <img src="img/moreCasual.jpg" alt="extremely relaxed">
                 </label>
               </div>
             </div>
           </div>
         </div>
         <div class="row">
-        <button type="submit" class="pill btn-default" name="button">Submit</button>
+          <button type="submit" class="pill btn-default" name="button">Submit</button>
+        </div>
       </form>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div id="boot">
+        <h4>Java</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
     </div>
   </body>
 </html>
